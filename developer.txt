@@ -1,0 +1,16 @@
+
+
+1 url 请求的时候
+2. spring servlet -> url map ->  control
+3.spring servlet ->url map-> 404 java  系统404 web.xml
+4. control  会根据方法参数去动态加载httpservletrequest 或者httpservletresponse  
+并且会加载配置参数 根据循环读取参数映射到class   
+control service auto 动态加载
+ spring bean 单例模式   线程不安全 性能非常不错 control －>service->dao->mysql 
+ @requestmap   @responsebody ajax 
+  struts2 
+
+
+java gc  classloader    classloader ->web.xml ->spring spring filter utf-8 ->servlet init ->get ->post -> control
+classloader 加载
+spring xml 上传大小控制 还有 utf8 数据库连接池
