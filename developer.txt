@@ -16,3 +16,4 @@ classloader 加载
 spring xml 上传大小控制 还有 utf8 数据库连接池
 git
 GPL
+Git has a mutable index called stage.
